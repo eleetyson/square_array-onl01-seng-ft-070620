@@ -4,4 +4,5 @@ def square_array(array)
   array.each do |i|
     arr << i
   end
+  arr
 end
