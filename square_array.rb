@@ -1,3 +1,4 @@
 def square_array(array)
-  array.collect{|i| (i*i)}
+  arr = array.collect{|i| (i*i)}
+  arr
 end
