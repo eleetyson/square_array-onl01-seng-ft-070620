@@ -1,4 +1,7 @@
 def square_array(array)
-  arr = array.collect{|i| (i*i)}
+  arr = []
+  array.each do |i|
+    arr << i*i
+  end
   arr
 end
